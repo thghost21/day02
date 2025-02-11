@@ -1,18 +1,29 @@
 body {
   background-color: #061130;
+  min-height: 100dvh;
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
   color: white;
+  justify-content: space-between;
+  align-items: center;
 }
 
 main {
 
   color: white;
+  padding: 4rem;
+}
+
+nav {
+  gap: 2rem;
 }
 
 footer {
   background-color: #Ffffff;
+  padding: 1rem;
 }
 
 .yellow {
@@ -21,4 +32,18 @@ footer {
 
 .bottomFooter {
   background-color: #eef3f3;
+  padding: 0, 2rem, 0, 2rem;
+  margin: 0px;
+}
+
+.display-flex {
+  display: flex;
+}
+
+.justify-content {
+  justify-content: space-evenly;
+}
+
+.max-width {
+  max-width: 30%;
 }

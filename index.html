@@ -9,31 +9,39 @@
 </head>
 
 <body>
-  <header>
-    <img src="coolsite-logo.png" alt="Cool site Logo">
-    <span>ABOUT US</span>
-    <span>SERVICES</span>
-    <button>LET'S CHAT</button>
+  <header class="display-flex">
+    <div>
+      <img src="coolsite-logo.png" alt="Cool site Logo">
+    </div>
+    <nav class="display-flex">
+      <span>ABOUT US</span>
+      <span>SERVICES</span>
+      <button>LET'S CHAT</button>
+    </nav>
   </header>
 
-  <h3 class="yellow">Services </h3>
 
-  <main>
-    <h1>Building web apps that scale to your world wide audience</h1>
-    <p>At CS2 we identify the digital divide with additional clickthroughs from DevOps Nanotechnology immersion along
-      the information highway to close the loop on focusing solely on the bottom line.</p>
-    <img src="world.png" alt="world map">
+  <main class="display-flex justify-content">
+    <div class="max-width">
+      <h3 class="yellow">Services </h3>
+      <h2>Building web apps that scale to your world wide audience</h2>
+      <p>At CS2 we identify the digital divide with additional clickthroughs from DevOps Nanotechnology immersion along
+        the information highway to close the loop on focusing solely on the bottom line.</p>
+    </div>
+    <div>
+      <img src="world.png" alt="world map">
+    </div>
   </main>
 
   <footer>
-    <div>
+    <div class="display-flex justify-content">
       <span>HTML & CSS</span>
       <span>Semantic Markup</span>
       <span>Responsive Design</span>
       <span>Accessibility Standards</span>
     </div>
-    <div class="bottomFooter">
-      <div>From Ideas to Reality</div>
+    <div class="bottomFooter display-flex">
+      <h1>From Ideas to Reality</h1>
       <div>If you can dream it then you can build it with web technology solutions.</div>
     </div>
   </footer>
