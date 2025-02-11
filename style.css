@@ -26,11 +26,16 @@ header {
 }
 
 main {
-
   color: white;
   padding: 4rem;
   word-spacing: 2px;
   flex-grow: 1;
+  align-items: center;
+  line-height: 1.5;
+}
+
+.doubleSpace {
+  line-height: 1.8;
 }
 
 nav {
@@ -41,7 +46,6 @@ nav {
 footer {
   background-color: #Ffffff;
   padding: 2rem;
-
 }
 
 .yellow {
@@ -66,5 +70,5 @@ footer {
 }
 
 .max-width {
-  max-width: 30%;
+  max-width: 20%;
 }
