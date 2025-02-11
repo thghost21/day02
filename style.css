@@ -1,3 +1,24 @@
 body {
-  background-color: white;
+  background-color: #061130;
+}
+
+header {
+  color: white;
+}
+
+main {
+
+  color: white;
+}
+
+footer {
+  background-color: #Ffffff;
+}
+
+.yellow {
+  color: #FAFD61;
+}
+
+.bottomFooter {
+  background-color: #eef3f3;
 }
